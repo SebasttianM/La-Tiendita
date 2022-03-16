@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+html {
+  box-sizing: border-box;
+  /* 1rem igual a 10px*/
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  max-width: 1366px;
+  max-height: 1626px;
+
+  /* Bg */
+
+  background: #fafaf8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  flex-direction: row;
+
+  position: static;
+  width: 1366px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+
+  /* White */
+
+  background: #fefefe;
+}
+
+header .logoTiendita {
+  position: static;
+  width: 92px;
+  height: 16px;
+  left: 40px;
+  top: 36px;
+
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 16px;
+  /* identical to box height, or 73% */
+
+  /* Orange */
+  color: #fc462d;
+}
+header .ubicacionBoton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 454px;
+  height: 40px;
+  left: 872px;
+  top: 24px;
+}
+
+header .ubicacionBoton p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 333px;
+  height: 24px;
+  left: 0px;
+  top: 8px;
+}
+
+header .ubicacionBoton .ubicacion {
+  position: static;
+  width: 301px;
+  height: 24px;
+  left: 32px;
+  top: 0px;
+
+  /* Body 1/Bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Cocoa Brown */
+
+  color: #332927;
+}
+
+header img {
+  position: static;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+}
+
+header button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+
+  position: static;
+  width: 89px;
+  height: 40px;
+  left: 365px;
+  top: 0px;
+
+  /* Malachite */
+
+  background: #0ac763;
+  border-radius: 8px;
+}
+
+.linea {
+  position: static;
+  width: 40px;
+  height: 0px;
+  left: 349px;
+  top: 0px;
+
+  /* Boulder */
+
+  border: 1px solid #b8b4b4;
+  transform: rotate(90deg);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+
+  position: static;
+  width: 1366px;
+  height: 1538px;
+  left: 0px;
+  top: 88px;
+}
+main .banner {
+  position: static;
+  width: 1286px;
+  height: 250px;
+  left: 40px;
+  top: 40px;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+
+  position: static;
+  width: 1286px;
+  height: 560px;
+  left: 40px;
+  top: 330px;
+
+  /* White */
+
+  background: #fefefe;
+  /* Shadows-2 */
+
+  box-shadow: 0px 11px 29px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.productos h3 {
+  position: static;
+  width: 76px;
+  height: 22px;
+  left: 40px;
+  top: 40px;
+
+  /* Headline 3 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 110% */
+
+  /* Black */
+
+  color: #333333;
+}
+
+.productos .productosContenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 1162px;
+  height: 418px;
+  left: 40px;
+  top: 102px;
+  overflow-x: scroll;
+}
+
+/* .productos .populares {
+  position: static;
+  width: 192px;
+  height: 22px;
+  left: 40px;
+  top: 40px;
+
+  /* Headline 3 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 110% */
+
+  /* Black */
+
+  color: #333333;
+} */
+
+.productos .productosContenedor1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+
+position: static;
+width: 1286px;
+height: 568px;
+left: 40px;
+top: 930px;
+
+/* White */
+
+background: #FEFEFE;
+/* Shadows-2 */
+
+box-shadow: 0px 11px 29px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+
+}
+
+span{
+    height: 40px;
+    
+}
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 194px;
+height: 418px;
+left: 0px;
+top: 0px;
+
+}
+
+card .porcentage{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    
+    position: static;
+    width: 59px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    /* Purple-bg */
+    
+    background: #F0E3FE;
+    border-radius: 16px;
+}
+
+card .porcentage p{
+    position: static;
+    width: 51px;
+    height: 16px;
+    left: 4px;
+    top: 4px;
+    
+    /* Caption/Bold */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    
+    /* Purple */
+    
+    color: #5E18BB;
+}
