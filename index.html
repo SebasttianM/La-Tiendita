@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css" class="">
+    <!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"rel="stylesheet"/>
     <title>La Tiendita</title>
 </head>
 <body>
@@ -30,29 +32,51 @@
             <h3>Ofertas</h3>
             <div class="productosContenedor">
                 <div class="card">
-                    <div class="porcentage">
-                        <p>32% dt.</p>
-                    </div>
+                        <span class="porcentage">
+                             <h5>32%dto</h5>
+                        </span>
+                        <img src="images/Name=Limon.jpg" alt="" class="imgProducto">
+                        <div class="desciptionProducto">
+                            <p class="productoPrecio">$26.82/kg $39.9/kg</p>
+                            <p class="detalle">Limon con semilla</p>
+                        </div>
+                        <button class="agregar" data-mdb-toggle="modal" data-mdb-target="#modalAgregarProducto"><p>Agregar</p></button>
                 </div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-            </div>
+                
+            </div>              
+                
         </section>
         <span>
             <br>
         </span>
         <section class="productos">
             <h3 id="populares">Los más populares</h3>
-            <div class="productosContenedor1">
+            <div class="productosContenedor">
+                <!-- <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
                 <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card"></div> -->
             </div>
         </section>
-    </main>
+  <!-- Modal -->
+  <div class="modal fade" id="modalAgregarProducto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">...</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+    <script src="script/index.js" type="module"></script>
 </body>
 </html>
